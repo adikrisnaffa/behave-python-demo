@@ -11,7 +11,7 @@ jobs:
         python-version: 3.10.8
 
     - name: Firefox Install
-      uses: browser-action/setup-chrome@latest
+      uses: browser-action/setup-firefox@latest
       with:
         firefox-version: stable
 
